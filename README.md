@@ -26,9 +26,12 @@ pip install translators
 - **model_id** - 模型ID. 默认 `CompVis/stable-diffusion-v1-4`
 - **revision** - 模型 revision. 默认`fp16`
 - **torch_dtype** - Pytorch数据类型. 默认 `torch.float16`
-- **prompt** - 给文字另外加的文字。可以加入一些画的种类的名字，来更好的生成图像。比如, `digital art`, `HQ`, 等等。默认 `digital art`
+- **prompt** - 这里其实是给文字另外加的文字。可以加入一些画的种类的名字，来更好的生成图像。比如, `digital art`, `HQ`, 等等。默认 `digital art`
 - **num_inference_steps** - The number of steps. 默认 `50`
+- **zh2en** - 是否开启翻译. 默认 `True`
 - **use_auth_token** - Hugging Face的authentication token。**需要自己填写。**
+
+另外，如果缺乏灵感，可以参考https://lexica.art/
 
 ## 效果
 
