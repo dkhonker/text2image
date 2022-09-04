@@ -31,8 +31,6 @@ pip install translators
 - **zh2en** - 是否开启翻译. 默认 `True`
 - **use_auth_token** - Hugging Face的authentication token。**需要自己填写。**
 
-更多参数可见官方说明[table Diffusion v1-4 Model](https://huggingface.co/CompVis/stable-diffusion-v1-4)。
-
 另外，如果缺乏灵感，可以参考https://lexica.art/
 
 ## 效果
