@@ -6,7 +6,10 @@
 另外，Stable Diffusion对中文效果不是很好，故添加了一个翻译功能。
 
 ## 使用前准备
-调用了[translators](https://github.com/UlionTse/translators)包用来翻译，故需执行以下代码
+
+默认使用CUDA，故需要一台有GPU的电脑。
+
+代码中调用了[translators](https://github.com/UlionTse/translators)包用来翻译，故需执行以下代码。
 
 ```
 pip install translators
