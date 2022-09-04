@@ -1,5 +1,5 @@
 # TextToImage
-基于[diffuse_my_lyrics](https://github.com/MichaelisTrofficus/diffuse_my_lyrics)，模型为Stable Diffusion v1-4 Model。
+基于[diffuse_my_lyrics](https://github.com/MichaelisTrofficus/diffuse_my_lyrics)，模型为[table Diffusion v1-4 Model](https://huggingface.co/CompVis/stable-diffusion-v1-4)。
 
 由于diffuse_my_lyrics原代码中的pytorch的autocast的应用存在问题，故重写了原代码中的这一部分。
 
@@ -30,6 +30,8 @@ pip install translators
 - **num_inference_steps** - The number of steps. 默认 `50`
 - **zh2en** - 是否开启翻译. 默认 `True`
 - **use_auth_token** - Hugging Face的authentication token。**需要自己填写。**
+
+更多参数可见官方说明[table Diffusion v1-4 Model](https://huggingface.co/CompVis/stable-diffusion-v1-4)。
 
 另外，如果缺乏灵感，可以参考https://lexica.art/
 
