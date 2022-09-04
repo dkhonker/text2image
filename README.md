@@ -12,6 +12,8 @@
 pip install translators
 ```
 
+**注意：**会下载大约4G的模型文件，请确保空间充足。
+
 ## 如何使用
 
  见`demo.ipynb`
