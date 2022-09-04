@@ -21,7 +21,6 @@ def parse_lyrics(path: str, prompt: str, zh2en: bool) -> List[str]:
         verse = verse.replace("\n", "")
         verse = verse.replace(".", "")
         verse = verse.replace("。", "")
-        verse = verse.replace(" ", "")
         if zh2en:
             verse=ts.google(verse)
         if verse:
